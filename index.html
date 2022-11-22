@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="/dist/loading-bar.css">     
+<link rel="stylesheet" href="/dist/loading-bar.css"> 
+<link rel="stylesheet" href="/style/style.css">  
 </head>
 <body>
 <center><div
@@ -9,7 +10,14 @@
   stroke-width="50%"
   class="ldBar label-center"
   data-value="55"
-></div></center>
+></div>
+		<div class="progressbar">
+			<svg class="progressbar__svg">
+				<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+			</svg>
+			<span class="progressbar__text shadow-html">HTML</span>
+		</div>
+</center>
 <script src="/dist/loading-bar.js"></script>
 </body>
 </html>
