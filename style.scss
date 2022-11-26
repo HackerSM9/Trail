@@ -1,0 +1,93 @@
+$color_1: #fff;
+$color_2: #000;
+$default-color: #5008bd;
+$bg-color_1: #17D602;
+
+@import "nav-bar.css";
+@import "progress-bar.css";
+@import "../Fonts/fonts.css";
+@import "../dist/loading-bar.css";
+@import "../free-icons/css/latest-icon.css";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.white_t {
+	color: $color_1;
+}
+.about {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+.about_hr {
+	text-align: center;
+	background-color: $default-color;
+	border: 3px solid #5008bd;
+	width: 80px;
+	height: 2px;
+	border-radius: 10px;
+}
+.a-section {
+	text-decoration: none;
+}
+.about_img {
+	border-radius: 193px;
+	border-color: $default-color;
+	height: 230px;
+}
+.skills {
+	background-color: $default-color;
+	margin: 0px;
+	padding: 5%;
+}
+.skills_hr {
+	text-align: center;
+	background-color: $color_1;
+	border: 3px solid #fff;
+	width: 80px;
+	height: 2px;
+	border-radius: 10px;
+}
+#android {
+	accent-color: lightgreen;
+}
+#html5 {
+	accent-color: orange;
+}
+#py {
+	accent-color: #000099;
+}
+input {
+	width: 60%;
+	padding: 10px;
+	border-radius: 30px;
+}
+textarea {
+	padding: 10px;
+	border-radius: 30px;
+}
+.sub_but {
+	color: $color_2;
+	background-color: $bg-color_1;
+	width: 100%;
+	padding: 10px;
+	border-radius: 30px;
+}
+.fa {
+	display: flex;
+	color: $default-color;
+	font-size: 29px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+.fab {
+	display: flex;
+	color: $default-color;
+	font-size: 29px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
